@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perché Leone Master School</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="why-container">
+        <!-- Header Section -->
+        <div class="why-header">
+            <h2 class="why-title">
+                <span class="title-small">Perché scegliere la</span>
+                <span class="highlight">Leone Master School?</span>
+            </h2>
+            
+            <!-- Single Column Layout -->
+            <div class="single-column">
+                <p>Ogni programma della Leone Master School genera un impatto profondo sul piano personale. Chi entra in contatto con il brand vive un'esperienza trasformativa: ritrova chiarezza nei momenti di confusione, energia dopo periodi di stallo e fiducia concreta osservando i propri progressi.</p>
+                
+                <p>È un programma guidato che fa sentire di nuovo in cammino, con uno scopo definito e gli strumenti per raggiungerlo. A questo si aggiunge un elemento decisivo: il <strong>senso di Unità</strong>.</p>
+                
+                <!-- Bento Box Images -->
+                <div class="bento-images">
+                    <!-- Large Image -->
+                    <div class="bento-item large" data-tilt>
+                        <img src="images/Bento1.JPG" alt="Leone Master School">
+                        <div class="image-overlay"></div>
+                    </div>
+                    
+                    <!-- Single Medium Image -->
+                    <div class="bento-item medium" data-tilt>
+                        <img src="images/Bento2.JPG" alt="Workshop & Community">
+                        <div class="image-overlay"></div>
+                    </div>
+                    
+                    <!-- Bottom Two Images -->
+                    <div class="bento-bottom-grid">
+                        <div class="bento-item bottom-left" data-tilt>
+                            <img src="images/Bento4.JPG" alt="Eventi">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="bento-item bottom-right" data-tilt>
+                            <img src="images/Bento5.JPG" alt="Mentorship">
+                            <div class="image-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <p>Non cresci da solo: entri in una community esigente e solidale di persone che condividono la stessa direzione: migliorare, responsabilmente. L'ambiente è sicuro e selettivo: mentori, pari e rituali di gruppo sostengono l'impegno, normalizzano le difficoltà e amplificano le vittorie.</p>
+                
+                <p class="final-text">Al termine dell'affiancamento non resta solo un set di competenze, ma una identità più salda, la percezione di appartenenza a un "noi" che sostiene le scelte giuste, e la sensazione concreta di aver ripreso in mano la propria evoluzione - professionale, emotiva e umana.</p>
+            </div>
+        </div>
+
+        <!-- Bento Grid Cards -->
+        <div class="bento-grid">
+            <!-- Card 1 - Attestati -->
+            <div class="bento-card" data-card="1">
+                <div class="card-image">
+                    <img src="images/attestatocard.png" alt="Attestati">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">
+                        <span class="title-light">Attestati</span> <span class="title-bold">e Riconoscimenti</span>
+                    </h3>
+                    <p class="card-description">Al termine di ogni programma ricevi un attestato ufficiale, da inserire nel CV o nei profili professionali.</p>
+                </div>
+            </div>
+
+            <!-- Card 2 - Risultati -->
+            <div class="bento-card" data-card="2">
+                <div class="card-image">
+                    <img src="images/risultaticard.png" alt="Risultati">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">
+                        <span class="title-bold">Facciamo parlare</span> <span class="title-italic">i risultati</span>
+                    </h3>
+                    <p class="card-description">Ogni docente-mentore è un professionista attivo nel proprio settore: per questo, insegna solo ciò che applica ogni giorno nel proprio lavoro, e porta la ricchezza della propria esperienza al servizio dei corsisti.</p>
+                </div>
+            </div>
+
+            <!-- Card 3 - Flessibilità -->
+            <div class="bento-card" data-card="3">
+                <div class="card-image">
+                    <img src="images/dovevuoicard.png" alt="Flessibilità">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">
+                        <span class="title-light">Impara</span> <span class="title-bold">come, dove</span> <span class="title-italic">e quando vuoi</span>
+                    </h3>
+                    <p class="card-description">I programmi LMS sono accessibili online da pc, tablet e smartphone, con la massima flessibilità di studio.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+        </button>
+        <img src="" alt="" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
